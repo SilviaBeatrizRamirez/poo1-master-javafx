@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="41.0" layoutY="200.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="69.0" text="Agregar" textFill="#15eb7c" />
+      <Button layoutX="172.0" layoutY="200.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" text="Modificar" textFill="#ae5012" />
+      <Button layoutX="447.0" layoutY="322.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" text="Eliminar" textFill="#d30505" />
+      <TableView layoutX="386.0" layoutY="21.0" prefHeight="281.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="199.0" text="Lista de semana (1...4)" />
+        </columns>
+      </TableView>
+      <Label layoutX="22.0" layoutY="21.0" text="Ingrese  semana de ejercicio" textFill="#22056b" />
+      <Label layoutX="19.0" layoutY="80.0" text="NOMBRE" />
+      <TextField layoutX="112.0" layoutY="76.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="60.0" layoutY="339.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="69.0" text="Agregar" textFill="#15eb7c" />
+      <Button layoutX="147.0" layoutY="339.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" text="Modificar" textFill="#ae5012" />
+      <Button layoutX="437.0" layoutY="339.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" text="Eliminar" textFill="#d30505" />
+      <TableView layoutX="386.0" layoutY="28.0" prefHeight="267.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="199.0" text="Lista cliente" />
+        </columns>
+      </TableView>
+      <Label layoutX="22.0" layoutY="21.0" text="Ingrese nuevo cliente" textFill="#39109a" />
+      <Label layoutX="28.0" layoutY="55.0" text="DNI" />
+      <Label layoutX="25.0" layoutY="110.0" text="APELLIDOS" />
+      <Label layoutX="28.0" layoutY="155.0" text="NOMBRES" />
+      <Label layoutX="25.0" layoutY="191.0" text="FECHA_NACIMIENTO" />
+      <Label layoutX="22.0" layoutY="219.0" text="SEXO" />
+      <TextField layoutX="153.0" layoutY="51.0" />
+      <TextField layoutX="158.0" layoutY="106.0" />
+      <TextField layoutX="158.0" layoutY="151.0" />
+      <DatePicker layoutX="157.0" layoutY="188.0" prefHeight="26.0" prefWidth="152.0">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor></DatePicker>
+      <TextField layoutX="158.0" layoutY="224.0" />
+   </children>
+</AnchorPane>
